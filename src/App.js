@@ -1,16 +1,28 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import Nav from './components/Nav';
 import Main from './components/Main';
 import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 function App() {
-
+  const [menuSelect, setmenuSelect]= useState(0);
+  const navSelect= () => {
+    if (menuSelect === 0) {
+      return <Main />
+      }if (menuSelect === 1) {
+        return <Contact />
+      }if (menuSelect === 2) {
+        return <Portfolio />
+      }if (menuSelect === 3) {
+        return <Resume />
+      }
+  }
   return (
     <div>
-      <Nav />
+      <Nav setmenuSelect={setmenuSelect}/>
       <main>
-        <Main />
-        <Contact />
+        {navSelect()}
       </main>
     </div>
   );

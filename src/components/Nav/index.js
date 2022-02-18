@@ -1,39 +1,50 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-function Nav() {
+function Nav(props) {
+const [navClass, setnavClass]= useState("flex-row");
+const [toggledNav, settoggledNav]= useState(true);
+
+const addClass=() => {
+  if (toggledNav){
+    setnavClass("flex-row show");
+    settoggledNav(false);
+  }else {
+    setnavClass("flex-row");
+    settoggledNav(true);
+  }
+
+}
 
   return (
 <header>
-<FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
+
   <h2>
     <a href="/">
-      Travis Helms
+      Travis
     </a>
   </h2>
+
   <nav>
-    <button class="hamburger" id="hamburger">
-
-    </button>
-
-    <ul className="flex-row">
-      <li className="mx-2">
-        <a href="#about">
-          About me
-        </a>
+    <ul className={navClass} id='navul'>
+      <li>
+        <span>About</span>
       </li>
       <li>
-        <span>Portfolio</span>
+        <span onClick={() => props.setmenuSelect(2)}>Portfolio</span>
       </li>
       <li>
-        <span>Contact</span>
+        <span onClick={() => props.setmenuSelect(1)}>Contact</span>
       </li>
       <li>
-        <span>Resume</span>
+        <span onClick={() => props.setmenuSelect(3)}>Resume</span>
       </li>
     </ul>
   </nav>
+  <button onClick={addClass} className="hamburger" id="hamburger">
+    <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
+  </button>
     </header>
   );
 }
