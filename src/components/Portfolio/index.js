@@ -1,4 +1,8 @@
 import React from 'react';
+import actBank from '../../assets/images/actbank.jpg';
+import hotelRaven from '../../assets/images/hotelraven.jpg';
+import passGen from '../../assets/images/PasswordGen.jpg';
+import weather from '../../assets/images/weatherdashboard.jpg';
 
 function Portfolio() {
 
@@ -6,19 +10,19 @@ function Portfolio() {
 
   return (
   <section id="my-work">
-    <h2>My Work</h2>
+    <h2 id='resheader'>My Work</h2>
     <div className="work1">
-      <a href="https://smashercoder.github.io/hotel-raven/"><img src="./assets/images/hotelraven.jpg" class="responsive" alt="My Work 1"></img></a>
+      <a href="https://smashercoder.github.io/hotel-raven/"><img src={hotelRaven} className="responsive" alt="My Work 1"></img></a>
     </div>
-    <div class="flex-row2">
-      <div className="work2">
-        <a href="https://smashercoder.github.io/password-generator/"><img src="./assets/images/PasswordGen.jpg" alt="My Work 2"></img></a>
+    <div className='row flex-row'>
+      <div className="column">
+        <a href="https://smashercoder.github.io/password-generator/"><img src={passGen} className="workImg" alt="My Work 2"></img></a>
       </div>
-      <div className="work3">
-        <a href="https://act-bank.herokuapp.com/"><img src="./assets/images/actbank.jpg" alt="My Work 3"></img></a>
+      <div className="column">
+        <a href="https://act-bank.herokuapp.com/"><img src={actBank} className="workImg" alt="My Work 3"></img></a>
       </div>
-      <div className="work4">
-        <a href="https://smashercoder.github.io/weatherdashboard/"><img src="./assets/images/weatherdashboard.jpg"alt="My Work 4"></img></a>
+      <div className="column">
+        <a href="https://smashercoder.github.io/weatherdashboard/"><img src={weather} className="workImg" alt="My Work 4"></img></a>
       </div>
     </div>
   </section>
