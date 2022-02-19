@@ -35,7 +35,7 @@ h4,
 h5,
 h6 {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   margin: 5px 0;
 }
 
@@ -45,7 +45,6 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-weight: 600;
 }
 
 h3 {
@@ -54,6 +53,7 @@ h3 {
 
 h4 {
   font-size: 1.5rem;
+  text-align: center;
 }
 
 h5 {
@@ -147,7 +147,7 @@ li {
   margin-left: 45%;
   margin-bottom: 45px;
   font-size: 17px;
-  font-weight: 200;
+  font-weight: 500;
 }
 
 nav a:hover {
@@ -203,23 +203,50 @@ button {
   display:block !important
 }
 
-
-
-.work1 {
-  margin: 0 auto;
-  width: 55%;
+.card img{
+  width: 550px;
+  height: 525px;
   margin-top: 15px;
 }
 
-.work1 img {
-  max-height: 500px;
+.card {
+  color: var(--light);
+  text-align: left;
+}
+
+.card h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.card h4 {
+  text-align: center;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 18px;
+  text-indent: 15px;
+}
+
+.flex-row3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 550px;
+  margin: 0 auto;
 }
 
 .flex-row2 {
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  width: 350px;
+  width: 93%;
   margin: 0 auto;
+}
+
+.flex-row2 img {
+  width: 450px;
+  height: 450px;
 }
 
 #resheader {

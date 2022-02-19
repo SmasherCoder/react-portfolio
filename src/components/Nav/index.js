@@ -29,7 +29,7 @@ const addClass=() => {
   <nav>
     <ul className={navClass} id='navul'>
       <li>
-        <span>About</span>
+        <a href='/'><span>About</span></a>
       </li>
       <li>
         <span onClick={() => props.setmenuSelect(2)}>Portfolio</span>
