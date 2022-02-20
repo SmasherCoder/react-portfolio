@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.efb8fc1d.css",
+    "main.js": "/react-portfolio/static/js/main.1aad49a3.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/hotelraven.jpg": "/react-portfolio/static/media/hotelraven.b1209b6d0a2578822703.jpg",
+    "static/media/actbank.jpg": "/react-portfolio/static/media/actbank.56c5ddec06bed3c50d20.jpg",
+    "static/media/travis3.jpg": "/react-portfolio/static/media/travis3.324b615027de636c8f39.jpg",
+    "static/media/weatherdashboard.jpg": "/react-portfolio/static/media/weatherdashboard.da96be882373a8fe83eb.jpg",
+    "static/media/budgettracker.jpg": "/react-portfolio/static/media/budgettracker.a609134ed087d39b4cd7.jpg",
+    "static/media/Profile.pdf": "/react-portfolio/static/media/Profile.27b3972f9644e5cae602.pdf",
+    "static/media/PasswordGen.jpg": "/react-portfolio/static/media/PasswordGen.a094ca470e699ef53deb.jpg",
+    "static/media/notetaker.jpg": "/react-portfolio/static/media/notetaker.ec00b90822edf03c4715.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.efb8fc1d.css.map": "/react-portfolio/static/css/main.efb8fc1d.css.map",
+    "main.1aad49a3.js.map": "/react-portfolio/static/js/main.1aad49a3.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efb8fc1d.css",
+    "static/js/main.1aad49a3.js"
+  ]
+}
