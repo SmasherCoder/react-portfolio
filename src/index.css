@@ -251,6 +251,15 @@ button {
 
 #resheader {
   text-align: center;
+  color: var(--light);
+}
+
+.topmargin {
+  margin-top: 45px;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 #tabheader {
@@ -273,12 +282,28 @@ button {
   clear: both;
 }
 
+a p {
+  text-decoration: underline;
+}
+
 .workImg {
   display: flex;
   justify-content: space-between;
   width: 450px;
   height: 450px;
   margin-left: 5%;
+}
+
+.varlight {
+  color: var(--light);
+}
+
+section nav {
+  text-align: center;
+}
+
+a {
+  margin-right: 15px;
 }
 
 @media only screen and (min-width: 200px) and (max-width: 1300px) {

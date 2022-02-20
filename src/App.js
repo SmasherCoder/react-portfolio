@@ -4,6 +4,7 @@ import Main from './components/Main';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
       <Nav setmenuSelect={setmenuSelect}/>
       <main>
         {navSelect()}
+        <Footer />
       </main>
     </div>
   );

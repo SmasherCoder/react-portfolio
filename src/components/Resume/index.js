@@ -1,4 +1,5 @@
 import React from 'react';
+import resume from '../../assets/images/Profile.pdf';
 
 function Resume() {
 
@@ -7,6 +8,7 @@ function Resume() {
         <h1 id='resheader'>
             Resume
         </h1>
+        <a href={resume} id='tabheader'><h3 className='varlight underline'>Download my resume</h3></a>
     <div className='row'>
     <h5 id='tabheader'>
             Technologies I have worked with:

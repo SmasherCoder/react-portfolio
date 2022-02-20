@@ -13,27 +13,39 @@ function Portfolio() {
 
   return (
   <section id="my-work">
-    <h2 id='resheader'>My Work</h2>
+    <h2 id='resheader' className='underline'>My Work</h2>
     <div className='flex-row2'>
-      <div>
-      <a href="https://smashercoder.github.io/hotel-raven/"><img src={hotelRaven} alt="My Work 1"></img></a>
+    <div className='topmargin'>
+      <a href="https://smashercoder.github.io/hotel-raven/"><p id='resheader'>Deployed App</p></a>
+      <a href="https://github.com/SmasherCoder/hotel-raven"><p id='resheader'>Github Repo</p></a>
+      <img src={hotelRaven} alt="My Work 1"></img>
       </div>
-      <div>
-        <a href="https://notetaker0960.herokuapp.com/"><img src={noteTaker} alt="My Work 2"></img></a>
+      <div className='topmargin'>
+      <a href="https://notetaker0960.herokuapp.com/"><p id='resheader'>Deployed App</p></a>
+      <a href="https://github.com/SmasherCoder/note-taker"><p id='resheader'>Github Repo</p></a>
+      <img src={noteTaker} alt="My Work 2"></img>
       </div>
-      <div>
-        <a href="https://glacial-hamlet-24067.herokuapp.com/"><img src={budgetTrack}  alt="My Work 3"></img></a>
+      <div className='topmargin'>
+      <a href="https://glacial-hamlet-24067.herokuapp.com/"><p id='resheader'>Deployed App</p></a>
+      <a href="https://github.com/SmasherCoder/Budget-Tracker"><p id='resheader'>Github Repo</p></a>
+      <img src={budgetTrack}  alt="My Work 3"></img>
       </div>
     </div>
     <div className='flex-row2'>
-      <div>
-        <a href="https://smashercoder.github.io/password-generator/"><img src={passGen} alt="My Work 4"></img></a>
+      <div className='topmargin'>
+      <a href="https://smashercoder.github.io/password-generator/"><p id='resheader'>Deployed App</p></a>
+      <a href="https://github.com/SmasherCoder/password-generator"><p id='resheader'>Github Repo</p></a>
+      <img src={passGen} alt="My Work 4"></img>
       </div>
-      <div>
-        <a href="https://act-bank.herokuapp.com/"><img src={actBank} alt="My Work 5"></img></a>
+      <div className='topmargin'>
+      <a href="https://act-bank.herokuapp.com/"><p id='resheader'>Deployed App</p></a>
+      <a href="https://github.com/SmasherCoder/bank"><p id='resheader'>Github Repo</p></a>
+      <img src={actBank} alt="My Work 5"></img>
       </div>
-      <div>
-        <a href="https://smashercoder.github.io/weatherdashboard/"><img src={weather} alt="My Work 6"></img></a>
+      <div className='topmargin'>
+      <a href="https://smashercoder.github.io/weatherdashboard/"><p id='resheader'>Deployed App</p></a>
+      <a href="https://github.com/SmasherCoder/weatherdashboard"><p id='resheader'>Github Repo</p></a>
+      <img src={weather} alt="My Work 6"></img>
       </div>
     </div>
   </section>
