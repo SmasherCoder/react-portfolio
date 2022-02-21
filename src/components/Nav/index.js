@@ -45,7 +45,7 @@ const addClass=() => {
   <button onClick={addClass} className="hamburger" id="hamburger">
     <FontAwesomeIcon icon={faBars}></FontAwesomeIcon>
   </button>
-    </header>
+  </header>
   );
 }
 

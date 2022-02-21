@@ -147,7 +147,7 @@ li {
   margin-left: 45%;
   margin-bottom: 45px;
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 nav a:hover {
@@ -160,7 +160,9 @@ header {
   flex-wrap: wrap;
 }
 
-
+span {
+  cursor: pointer;
+}
 
 header a {
   padding-left: 30px;
@@ -204,14 +206,16 @@ button {
 }
 
 .card img{
-  width: 500px;
-  height: 475px;
+  width: 400px;
+  height: 375px;
   margin-top: 15px;
+  margin-left: 0px;
 }
 
 .card {
   color: var(--light);
   text-align: left;
+  margin: 0 auto;
 }
 
 .card h3 {
@@ -227,6 +231,7 @@ button {
   margin-top: 10px;
   font-size: 18px;
   text-indent: 15px;
+  width: 400px;
 }
 
 .flex-row3 {
@@ -234,6 +239,7 @@ button {
   flex-wrap: wrap;
   width: 550px;
   margin: 0 auto;
+  justify-content: center;
 }
 
 .flex-row2 {
@@ -260,6 +266,10 @@ button {
 
 .topmargin {
   margin-top: 45px;
+}
+
+.topmargin img {
+  margin-bottom: 25px;
 }
 
 .underline {
@@ -310,6 +320,10 @@ a {
   margin-right: 15px;
 }
 
+button {
+  margin-bottom: 25px;
+}
+
 @media only screen and (min-width: 200px) and (max-width: 1300px) {
   .show {
     margin-right: 0px;
@@ -317,10 +331,28 @@ a {
     width: 100px;
     flex-direction: column;
   }
+
+  .topmargin img {
+    width: 350px;
+    height: 350px;
+  }
+
+  .flex-row3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 300px;
+    justify-content: center;
+  }
+
+  h2{
+    font-size: 24px;
+  }
   
   .hamburger {
+    margin-top: 5px;
     display: block;
-    margin-right: 30px;
+    margin-right: 20px;
     padding: 0px;
   }
 
@@ -328,5 +360,16 @@ a {
     display: none;
   }
 
-  
+  .card {
+    margin: 0 auto;
+  }
+
+  .card p {
+    width: 325px;
+  }
+
+  nav ul {
+    margin-top: 25px;
+  }
+
 }
