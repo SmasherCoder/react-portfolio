@@ -204,8 +204,8 @@ button {
 }
 
 .card img{
-  width: 550px;
-  height: 525px;
+  width: 500px;
+  height: 475px;
   margin-top: 15px;
 }
 
@@ -247,6 +247,10 @@ button {
 .flex-row2 img {
   width: 450px;
   height: 450px;
+}
+
+.leftindent {
+  margin-left: 25px;
 }
 
 #resheader {

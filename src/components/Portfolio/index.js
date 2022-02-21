@@ -1,4 +1,3 @@
-import { faHourglass1 } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
 import actBank from '../../assets/images/actbank.jpg';
 import hotelRaven from '../../assets/images/hotelraven.jpg';
@@ -13,7 +12,7 @@ function Portfolio() {
 
   return (
   <section id="my-work">
-    <h2 id='resheader' className='underline'>My Work</h2>
+    <h2 id='resheader'>My Work</h2>
     <div className='flex-row2'>
     <div className='topmargin'>
       <a href="https://smashercoder.github.io/hotel-raven/"><p id='resheader'>Deployed App</p></a>

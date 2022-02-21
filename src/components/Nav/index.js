@@ -20,16 +20,16 @@ const addClass=() => {
   return (
 <header>
 
-  <h2>
-    <a href="/">
+  <h2 className='leftindent'>
+    <span onClick={() => props.setmenuSelect(0)}>
       Travis
-    </a>
+    </span>
   </h2>
 
   <nav>
     <ul className={navClass} id='navul'>
       <li>
-        <a href='/'><span>About</span></a>
+      <span onClick={() => props.setmenuSelect(0)}>About</span>
       </li>
       <li>
         <span onClick={() => props.setmenuSelect(2)}>Portfolio</span>
