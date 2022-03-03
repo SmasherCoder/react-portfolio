@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.924a12bb.css",
-    "main.js": "/static/js/main.1a3af243.js",
+    "main.js": "/static/js/main.a80c76a4.js",
     "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
     "static/media/hotelraven.jpg": "/static/media/hotelraven.b1209b6d0a2578822703.jpg",
+    "static/media/fitr.jpg": "/static/media/fitr.7902709c374ed7beaa8c.jpg",
     "static/media/actbank.jpg": "/static/media/actbank.56c5ddec06bed3c50d20.jpg",
     "static/media/travis3.jpg": "/static/media/travis3.324b615027de636c8f39.jpg",
-    "static/media/weatherdashboard.jpg": "/static/media/weatherdashboard.da96be882373a8fe83eb.jpg",
     "static/media/budgettracker.jpg": "/static/media/budgettracker.a609134ed087d39b4cd7.jpg",
     "static/media/Profile.pdf": "/static/media/Profile.27b3972f9644e5cae602.pdf",
     "static/media/PasswordGen.jpg": "/static/media/PasswordGen.a094ca470e699ef53deb.jpg",
     "static/media/notetaker.jpg": "/static/media/notetaker.ec00b90822edf03c4715.jpg",
     "index.html": "/index.html",
     "main.924a12bb.css.map": "/static/css/main.924a12bb.css.map",
-    "main.1a3af243.js.map": "/static/js/main.1a3af243.js.map",
+    "main.a80c76a4.js.map": "/static/js/main.a80c76a4.js.map",
     "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.924a12bb.css",
-    "static/js/main.1a3af243.js"
+    "static/js/main.a80c76a4.js"
   ]
 }
